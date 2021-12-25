@@ -1,0 +1,21 @@
+{
+  "name": "Example1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^3.25.0",
+    "fastify-swagger": "^4.13.0",
+    "mongoose": "^6.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
